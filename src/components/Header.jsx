@@ -41,7 +41,7 @@ const Header = () => {
             ? 'bg-white/80 backdrop-blur-md shadow-lg border border-white/20' 
             : 'bg-white/95 shadow-md'
         }`}>
-          <div className="flex items-center space-x-3">
+          <a href="#/" className="flex items-center space-x-3 hover:opacity-95 transition-opacity duration-200">
             {/* Logo */}
             <div className="w-10 h-10 md:w-12 md:h-12 shrink-0">
               <img src="/images/logo.png" alt="BGS College Logo" className="w-full h-full object-contain" />
@@ -49,7 +49,7 @@ const Header = () => {
             <div className="hidden sm:flex flex-col">
               <span className="text-lg md:text-xl font-bold text-bgs-dark uppercase leading-tight tracking-tight">BGS College</span>
             </div>
-          </div>
+          </a>
           
           <div className="flex items-center">
             <a 

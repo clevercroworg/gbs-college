@@ -78,6 +78,21 @@ const Footer = () => {
         </div>
 
       </div>
+
+      {/* Bottom Bar with Copyright & Compliance Links */}
+      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs md:text-sm text-slate-400">
+        <p className="text-center sm:text-left">
+          © {new Date().getFullYear()} BGS College. All rights reserved.
+        </p>
+        <div className="flex space-x-6">
+          <a href="#/privacy-policy" className="hover:text-bgs-yellow transition-colors duration-200">
+            Privacy Policy
+          </a>
+          <a href="#/terms-and-conditions" className="hover:text-bgs-yellow transition-colors duration-200">
+            Terms & Conditions
+          </a>
+        </div>
+      </div>
     </footer>
   );
 };
